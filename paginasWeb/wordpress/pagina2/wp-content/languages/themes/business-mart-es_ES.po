@@ -1,0 +1,28 @@
+# Translation of Themes - Business Mart in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Business Mart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-04 14:01:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Business Mart\n"
+
+#. Description of the plugin/theme
+msgid "Business Mart is a simple child theme with green color scheme. Theme Demo: https://demo.wenthemes.com/business-mart/"
+msgstr "Business Mart es un tema hijo sencillo con esquema de color verde. Demo del tema: https://demo.wenthemes.com/business-mart/"
+
+#. Theme Name of the plugin/theme
+msgid "Business Mart"
+msgstr "Business Mart"
+
+#. Author URI of the plugin/theme
+msgid "https://wenthemes.com"
+msgstr "https://wenthemes.com"
+
+#. Author of the plugin/theme
+msgid "WEN Themes"
+msgstr "WEN Themes"

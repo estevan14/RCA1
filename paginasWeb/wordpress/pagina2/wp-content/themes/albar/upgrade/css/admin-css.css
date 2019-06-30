@@ -1,0 +1,39 @@
+#dashboard_right_now .inside .sub {
+	background-color: #FAFAFA;
+	border-top: 1px solid rgba(0, 0, 0, 0.07);
+	padding: 0;
+}
+#dashboard_right_now .inside .sub .premium-upgrade-info {
+	font-size: 12px;
+    color: #000;
+    display: block;
+    padding: 10px 12px 10px;
+}
+#dashboard_right_now .inside .sub .premium-upgrade-info strong {
+	color: #006CC9;
+}
+#dashboard_right_now .inside .sub:hover {
+	box-shadow: 0 0 0 1px #006CC9 inset;
+}
+
+.plugins-recommended {
+	
+}
+.plugins-recommended-note {
+	position: relative;
+}
+.plugins-recommended-close {
+	position: absolute;
+	top: -8px;
+	right: 0;
+	background-color: #BBB;
+	width: 25px;
+	height: 20px;
+	text-align: center;
+	padding: 3px 0 0;
+	font-weight: 700;
+	font-size: 13px;
+	color: #FFF !important;
+	border-radius: 30px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+}

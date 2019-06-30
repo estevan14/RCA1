@@ -1,0 +1,79 @@
+
+---Downloaded files---
+The import files for: Theme Demo Content were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/paginasweb/wordpress/pagina2
+Data file = C:\xampp\htdocs\paginasWeb\wordpress\pagina2/wp-content/themes/surya-chandra-lite/ocdi/surya-chandra-lite.xml
+Widget file = C:\xampp\htdocs\paginasWeb\wordpress\pagina2/wp-content/themes/surya-chandra-lite/ocdi/surya-chandra-lite.wie
+Customizer file = C:\xampp\htdocs\paginasWeb\wordpress\pagina2/wp-content/themes/surya-chandra-lite/ocdi/surya-chandra-lite.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Buscar - No Title - Imported
+Galería - Gallery - Imported
+Menú de navegación - Quick Links - Imported
+Surya Chandra: Recent Posts - Popular Blog - Imported
+Entradas recientes - No Title - Imported
+Categorías - No Title - Imported
+
+Footer 1 : 
+
+Texto - About Us ! - Imported
+
+Footer 2 : 
+
+Galería - Gallery - Imported
+
+Footer 3 : 
+
+Surya Chandra: Recent Posts - Recent Posts - Imported
+
+Footer 4 : 
+
+Menú de navegación - Quick Links - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

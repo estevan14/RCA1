@@ -1,0 +1,404 @@
+# Translation of Themes - Wilson in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Wilson package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-07 20:32:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Wilson\n"
+
+#. Description of the theme
+msgid "Wilson is a clean, simple and responsive theme for personal sites and blogs. Features responsive design, retina-ready assets, Block Editor/Gutenberg support, custom accent color support, custom logo support, custom widgets for video and Flickr embeds, page templates, and editor styles. Demo: https://www.andersnoren.se/themes/wilson/"
+msgstr "Wilson es un tema limpio, simple y adaptable para sitios personales y blogs. Tiene funcionalidades de diseño adaptable, recursos preparados para retina, compatible con Gutenberg, soporta acentos personalizados de color, logos personalizados, widgets para incrustar vídeos y Flickr, plantillas de página, edición de estilos y código preparado para traduciones. Demo: https://www.andersnoren.se/themes/wilson/"
+
+#. Theme Name of the theme
+msgid "Wilson"
+msgstr "Wilson"
+
+#: index.php:13
+msgid "Page %1$s of %2$s"
+msgstr "Página %1$s de %2$s"
+
+#: functions.php:664
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:663
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr "Más grande"
+
+#: functions.php:658
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:657
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr "Grande"
+
+#: functions.php:652
+msgctxt "Short name of the regular font size in the Gutenberg editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:651
+msgctxt "Name of the regular font size in Gutenberg"
+msgid "Regular"
+msgstr "Normal"
+
+#: functions.php:646
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:645
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr "Pequeño"
+
+#: functions.php:635
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr "Blanco"
+
+#: functions.php:630
+msgctxt "Name of the light gray color in the Gutenberg palette"
+msgid "Light Gray"
+msgstr "Gris claro"
+
+#: functions.php:625
+msgctxt "Name of the medium gray color in the Gutenberg palette"
+msgid "Medium Gray"
+msgstr "Gris medio"
+
+#: functions.php:620
+msgctxt "Name of the dark gray color in the Gutenberg palette"
+msgid "Dark Gray"
+msgstr "Oscuro"
+
+#: functions.php:615
+msgctxt "Name of the black color in the Gutenberg palette"
+msgid "Black"
+msgstr "Negro"
+
+#: functions.php:610
+msgctxt "Name of the accent color in the Gutenberg palette"
+msgid "Accent"
+msgstr "Acento"
+
+#: functions.php:375
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: functions.php:92 functions.php:128 functions.php:692
+msgctxt "Google Fonts: on or off"
+msgid "on"
+msgstr "on"
+
+#: searchform.php:3
+msgid "Submit"
+msgstr "Enviar"
+
+#: footer.php:41
+msgid "Theme by %s"
+msgstr "Tema por %s"
+
+#: comments.php:40
+msgid "%s Pingback"
+msgid_plural "%s Pingbacks"
+msgstr[0] "%s Pingback"
+msgstr[1] "%s Pingbacks"
+
+#: comments.php:15
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s comentario"
+msgstr[1] "%s comentarios"
+
+#: widgets/flickr-widget.php:13
+msgid "Flickr Widget"
+msgstr "Widget de Flickr"
+
+#. Template Name of the theme
+msgid "Archive template"
+msgstr "Plantilla de archivo"
+
+#: widgets/flickr-widget.php:67
+msgid "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr "Flickr ID (usa <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>):"
+
+#: widgets/flickr-widget.php:40
+msgid "More on Flickr &raquo;"
+msgstr "Más en Flickr &raquo;"
+
+#: widgets/flickr-widget.php:10
+msgid "Displays your latest Flickr photos."
+msgstr "Muestra tus últimas fotos en Flickr."
+
+#: widgets/flickr-widget.php:72
+msgid "Number of images to display"
+msgstr "Número de imágenes a mostrar"
+
+#: widgets/flickr-widget.php:62
+msgid "Title"
+msgstr "Título"
+
+#: template-archives.php:96
+msgid "Archives by Day"
+msgstr "Archivo diario"
+
+#: template-archives.php:90
+msgid "Archives by Month"
+msgstr "Archivo mensual"
+
+#: template-archives.php:84
+msgid "Archives by Year"
+msgstr "Archivo anual"
+
+#: template-archives.php:78
+msgid "Contributors"
+msgstr "Contribuidores"
+
+#: template-archives.php:70
+msgid "View all posts in %s"
+msgstr "Ver todas las entradas en %s"
+
+#: template-archives.php:60
+msgid "Archives by Tags"
+msgstr "Archivos por etiquetas"
+
+#: template-archives.php:54
+msgid "Archives by Categories"
+msgstr "Archivos por categorías"
+
+#: template-archives.php:31
+msgid "Last 30 Posts"
+msgstr "Últimas 30 entradas"
+
+#: single.php:95
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: single.php:85
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: single.php:75
+msgid "Tags:"
+msgstr "Etiquetas: "
+
+#: single.php:73
+msgid "Categories:"
+msgstr "Categorías:"
+
+#: searchform.php:2
+msgid "Search form"
+msgstr "Formulario de búsqueda"
+
+#: search.php:33
+msgid "No results. Try again, would you kindly?"
+msgstr "No hay resultados. Puedes intentarlo de nuevo."
+
+#: search.php:7
+msgid "Search"
+msgstr "Buscar"
+
+#: search.php:55 index.php:41
+msgid "Newer<span> posts</span> &raquo;"
+msgstr "Siguientes<span> entradas</span> &raquo;"
+
+#: search.php:53 index.php:39
+msgid "&laquo; Older<span> posts</span>"
+msgstr "&laquo; Anteriores<span> entradas</span>"
+
+#: single.php:113 template-archives.php:126 image.php:113 page.php:41
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "No hemos encontrado ninguna entrada relacionada con tu búsqueda. Por favor, inténtalo de nuevo."
+
+#: image.php:99
+msgid "Next<span> attachment</span> &raquo;"
+msgstr "Próximo<span> archivo adjunto</span> &raquo;"
+
+#: image.php:98
+msgid "&laquo; Previous<span> attachment</span>"
+msgstr "&laquo; Anterior<span> archivo adjunto</span>"
+
+#: header.php:50
+msgid "Hide menu"
+msgstr "Ocultar menú"
+
+#: header.php:49
+msgid "Show menu"
+msgstr "Mostrar menú"
+
+#: functions.php:469
+msgid "Accent Color"
+msgstr "Color de énfasis"
+
+#: functions.php:442
+msgid "Upload a logo to replace the default site name and description in the sidebar"
+msgstr "Subir un logo para reemplazar el nombre del sitio por defecto y la descripción de la barra lateral"
+
+#: functions.php:444 functions.php:477
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:435
+msgid "Allows you to customize theme options for Wilson."
+msgstr "Te permite personalizar las opciones del tema para Wilson."
+
+#: functions.php:437
+msgid "Wilson Options"
+msgstr "Opciones de Wilson"
+
+#: functions.php:400
+msgid "Reply"
+msgstr "Responder"
+
+#: functions.php:385
+msgid "Awaiting moderation"
+msgstr "Esperando moderación"
+
+#: functions.php:372
+msgid "(Post author)"
+msgstr "(Autor del artículo) "
+
+#: functions.php:350
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: functions.php:258
+msgid "Continue reading"
+msgstr "Seguir leyendo"
+
+#: functions.php:175
+msgid "Widgets in this area will be displayed in the right column in the footer."
+msgstr "Widgets en esta área serán mostrados en la columna derecha del pie de página."
+
+#: functions.php:173
+msgid "Footer B"
+msgstr "Pie de Página B"
+
+#: functions.php:165
+msgid "Widgets in this area will be displayed in the left column in the footer."
+msgstr "Widgets en esta área serán mostrados en la columna izquierda del pie de página."
+
+#: functions.php:163
+msgid "Footer A"
+msgstr "Pie de Página A"
+
+#: functions.php:155
+msgid "Widgets in this area will be displayed in the sidebar."
+msgstr "Widgets en esta área serán mostrados en la barra lateral."
+
+#: functions.php:153
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: footer.php:41
+msgid "Up"
+msgstr "Subir"
+
+#: footer.php:41
+msgid "To the top"
+msgstr "A la parte superior"
+
+#: content.php:5
+msgid "Sticky post"
+msgstr "Entrada fija"
+
+#: template-archives.php:106 functions.php:302 functions.php:350
+#: functions.php:395 page.php:25
+msgid "Edit"
+msgstr "Editar"
+
+#: functions.php:286
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: functions.php:286
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: functions.php:286
+msgid "0 Comments"
+msgstr "Sin comentarios"
+
+#: functions.php:294 content-quote.php:11 content-aside.php:11
+msgid "Sticky"
+msgstr "Fija"
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:67
+msgid "Newer<span> Comments</span> &raquo;"
+msgstr "Nuevos<span> comentarios</span> &raquo;"
+
+#: comments.php:65
+msgid "&laquo; Older<span> Comments</span>"
+msgstr "&laquo; Antiguos<span> comentarios</span>"
+
+#: archive.php:66
+msgid "Newer<span> posts</span>"
+msgstr "Nuevas<span> entradas</span>"
+
+#: archive.php:64
+msgid "Older<span> posts</span>"
+msgstr "Antiguas<span> entradas</span>"
+
+#: archive.php:29
+msgid "Archive"
+msgstr "Archivo"
+
+#: archive.php:26
+msgid "Author"
+msgstr "Autor"
+
+#: archive.php:22
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: archive.php:19
+msgid "Category"
+msgstr "Categoría"
+
+#: archive.php:16
+msgid "Year"
+msgstr "año"
+
+#: archive.php:13
+msgid "Month"
+msgstr "mes"
+
+#: archive.php:10
+msgid "Date"
+msgstr "Fecha"
+
+#: 404.php:19
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Parece que has intentado abrir una página que no existe, o tal vez,  haya sido borrada o movida. Puede que encuentres lo que buscas usando el formulario de abajo."
+
+#: 404.php:13
+msgid "Error 404"
+msgstr "Error 404 "
+
+#. Author URI of the theme
+msgid "https://www.andersnoren.se"
+msgstr "https://www.andersnoren.se"
+
+#. Author of the theme
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the theme
+msgid "https://www.andersnoren.se/teman/wilson-wordpress-theme/"
+msgstr "https://www.andersnoren.se/teman/wilson-wordpress-theme/"

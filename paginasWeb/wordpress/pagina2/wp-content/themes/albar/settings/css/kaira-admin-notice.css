@@ -1,0 +1,65 @@
+div.albar-conica-notice {
+    border-left-color: #FF0000;
+    position: relative;
+    padding: 15px 12px;
+}
+.albar-conica-notice-close {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 10px;
+    background: 0 0;
+    color: #b4b9be;
+    cursor: pointer;
+    text-decoration: none;
+}
+.albar-conica-notice-close:before {
+    background: 0 0;
+    color: #b4b9be;
+    content: "\f153";
+    display: block;
+    font: 400 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.albar-conica-img {
+    position: absolute;
+    right: 0;
+    bottom: -385px;
+    z-index: 999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    background-color: #FFF;
+    padding: 10px;
+    display: none;
+}
+.albar-conica-img img {
+    display: block;
+    margin: 0;
+}
+
+div.albar-conica-notice:hover .albar-conica-img {
+    display: block;
+}
+
+a.albar-notice-a {
+    display: inline-block;
+    margin: 0;
+    background-color: #006CC9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    min-width: 200px;
+    color: #FFF;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.14) inset;
+    padding: 2px 15px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+}

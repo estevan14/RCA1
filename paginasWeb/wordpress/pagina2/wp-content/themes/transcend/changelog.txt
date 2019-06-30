@@ -1,0 +1,16 @@
+Version 1.1.6
+Minor Fixes
+
+Version 1.1.5
+Added ShortPixel as a recommended plugin.
+
+Version 1.1.4
+Updated Welcome Screen
+Fixed #3 ( https://github.com/MachoThemes/transcend-lite/issues/3 )
+Fixed #1 ( https://github.com/MachoThemes/transcend-lite/issues/1 )
+
+Version 1.0.2
+Updated the core to its latest version
+
+Version 1.0.0
+Theme release!
