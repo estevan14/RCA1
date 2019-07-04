@@ -47,3 +47,4 @@ if ( ! function_exists( 'business_mart_theme_defaults' ) ) :
 endif;
 
 add_filter( 'surya_chandra_filter_default_theme_options', 'business_mart_theme_defaults', 99 );
+
