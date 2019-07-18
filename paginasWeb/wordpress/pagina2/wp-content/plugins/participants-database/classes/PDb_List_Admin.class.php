@@ -216,9 +216,17 @@ class PDb_List_Admin {
 
     // get the $wpdb object
     global $wpdb;
+    
+    /**
+     * @filter pdb-admin_list_query
+     * @param string the current list query
+     * @return string query
+     */
+    self::$list_query = Participants_Db::apply_filters( 'admin_list_query', self::$list_query );
 
     // get the number of records returned
-    self::$num_records = $wpdb->get_var( str_replace( '*', 'COUNT(*)', self::list_query() ) );
+    //self::$num_records = $wpdb->get_var( str_replace( '*', 'COUNT(*)', self::list_query() ) );
+    self::$num_records = count( $wpdb->get_results( self::$list_query, ARRAY_A ) );
 
     // set the pagination object
     $current_page = filter_input( INPUT_GET, self::$list_page, FILTER_VALIDATE_INT, array('options' => array('default' => 1, 'min_range' => 1)) );
@@ -226,7 +234,12 @@ class PDb_List_Admin {
     // include the session ID if using the alternate method
     $sess = Participants_Db::plugin_setting_is_true( 'use_session_alternate_method' ) ? '&' . PDb_Session::id_var . '=' . session_id() : '';
 
-    self::$pagination = new PDb_Pagination( array(
+    /**
+     * @filter pdb-admin_list_pagination_config
+     * @param array of configuration values
+     * @return array
+     */
+    self::$pagination = new PDb_Pagination( Participants_Db::apply_filters('admin_list_pagination_config', array(
         'link' => self::prepare_page_link( $_SERVER['REQUEST_URI'] ) . $sess . '&' . self::$list_page . '=%1$s',
         'page' => $current_page,
         'size' => self::$page_list_limit,
@@ -234,7 +247,7 @@ class PDb_List_Admin {
 //        'wrap_tag' => '<div class="pdb-list"><div class="pagination"><label>' . _x('Page', 'noun; page number indicator', 'participants-database') . ':</label> ',
 //        'wrap_tag_close' => '</div></div>',
         'add_variables' => '#pdb-list-admin',
-            ) );
+            ) ) );
 
     // get the records for this page, adding the pagination limit clause
     self::$participants = $wpdb->get_results( self::$list_query . ' ' . self::$pagination->getLimitSql(), ARRAY_A );
@@ -915,16 +928,28 @@ query: '.( isset($last_query) ? $last_query : $wpdb->last_query ));
              */
 //            do_action(Participants_Db::$prefix . 'admin_list_form_top', $this);
             do_action( Participants_Db::$prefix . 'admin_list_form_top' );
+            
+            $with_selection_actions = array();
+            
+            // add the approval actions
+            $approval_field_name = Participants_Db::apply_filters( 'approval_field', 'approved' );
+            if ( isset( Participants_Db::$fields[$approval_field_name] ) ) {
             $with_selection_actions = array(
                         __( 'approve', 'participants-database' ) => 'approve',
                         __( 'unapprove', 'participants-database' ) => 'unapprove',
                     );
+            }
+            
+            // add the delete action
             if ( current_user_can( Participants_Db::plugin_capability( 'plugin_admin_capability', 'delete participants' ) ) ) {
               $with_selection_actions = array(
                         __( 'delete', 'participants-database' ) => 'delete'
                     ) + $with_selection_actions;
             }
+            
             /**
+             * filter to add additional actions to the with selected selector
+             * 
              * @filter pdb-admin_list_with selected actions
              * @param array as $title => $action of actions to apply to selected records
              */

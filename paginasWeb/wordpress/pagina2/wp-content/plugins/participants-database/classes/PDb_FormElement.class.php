@@ -247,6 +247,7 @@ class PDb_FormElement extends xnau_FormElement {
           break;
 
         case 'file-upload' :
+          
           if ( $html && $field->is_not_default() ) {
             $return = '';
             if ( $field->module === 'signup' ) {
@@ -297,7 +298,7 @@ class PDb_FormElement extends xnau_FormElement {
           $linkdata = maybe_unserialize( $field->value() );
           
           if ( !empty( $linkdata ) && is_array( $linkdata ) ) {
-            list( $url, $value ) = $linkdata;
+            list( $url, $value ) = $linkdata + array('','');
           } else {
             $url = $field->link();
             $value = $field->value();
@@ -375,9 +376,11 @@ class PDb_FormElement extends xnau_FormElement {
           $return = '';
           break;
 
+        case 'decimal':
+          // this is to remove any trailing zeroes
+          $field->set_value( floatval( $field->value() ) );
         case 'currency':
         case 'numeric':
-        case 'decimal':
 
           if ( isset( $field->attributes['data-before'] ) && $field->has_content() ) {
             $field->set_value( '<span class="pdb-added-content"><span class="pdb-precontent">' . esc_html( $field->attributes['data-before'] ) . '</span>' . esc_html( $field->value() ) . '</span>' );
